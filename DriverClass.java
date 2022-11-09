@@ -54,11 +54,11 @@ class PartTimeFaculty extends Faculty {
 public class DriverClass {
     public static void main(String[] args){
 
-    PartTimeFaculty person2 = new PartTimeFaculty();
-    FullTimeFaculty person3 = new FullTimeFaculty();
-    person3.input();
-    person3.show();
-    person2.input();
-    person2.show();
+    PartTimeFaculty p2 = new PartTimeFaculty();
+    FullTimeFaculty p3 = new FullTimeFaculty();
+    p3.input();
+    p3.show();
+    p2.input();
+    p2.show();
 }
 }
